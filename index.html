@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DZ Teacher's Tool — Modern App for Teachers</title>
+  <meta name="description" content="DZ Teacher's Tool — modern, localized app to help middle-school teachers manage classes, grades and communication." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="light">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand"><span class="logo"><i class="fa-solid fa-graduation-cap"></i></span><span class="brand-name">DZ Teacher's Tool</span></div>
+    <div class="header-actions">
+      <div class="lang-toggle">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="ar">AR</button>
+      </div>
+      <button id="themeToggle" class="icon-btn" title="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-left" data-aos="fade-right">
+        <h1 data-i18n="hero.title">Modern, colorful educational tool for teachers</h1>
+        <p class="lead" data-i18n="hero.subtitle">Built for middle-school teachers today — adapting soon for primary & high schools. Manage classes, grades, observations and communicate via project chats.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#pricing" data-i18n="hero.ctaPrimary"><i class="fa-solid fa-tag"></i> Get started</a>
+          <a class="btn ghost" href="#gallery" data-i18n="hero.ctaSecondary"><i class="fa-solid fa-eye"></i> Preview app</a>
+        </div>
+        <div class="badges">
+          <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.newvisionbrldev.teachertool" aria-hidden><img src="assets/img/google-play-badge.png" alt="Google Play badge"></a>
+          <!--<a class="store-badge" href="#" aria-hidden><img src="assets/img/app-store-badge.png" alt="App Store badge"></a> -->
+        </div>
+      </div>
+
+      <div class="hero-right" data-aos="fade-left">
+        <div class="phone-frame">
+          <div class="screen">
+            <img id="heroCarousel" src="https://firebasestorage.googleapis.com/v0/b/teachertooldz.firebasestorage.app/o/1.png?alt=media&token=a0750f75-e654-42e3-848b-cfd6ffab193a" alt="App screenshot">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container" data-aos="fade-up">
+      <h2 data-i18n="about.title">What is DZ Teacher's Tool?</h2>
+      <p class="section-lead" data-i18n="about.subtitle">A smart mobile-first application that helps teachers manage rosters, enter trimester grades, record observations, and stay connected with the team via the teacher project chats.</p>
+
+      <div class="why-grid">
+        <div class="feature" data-aos="zoom-in" data-aos-delay="100">
+          <i class="fa-solid fa-chalkboard-user feature-icon"></i>
+          <h3 data-i18n="about.f1Title">Class & roster management</h3>
+          <p data-i18n="about.f1Body">Create classes, organize students and export rosters.</p>
+        </div>
+        <div class="feature" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fa-solid fa-clipboard-check feature-icon"></i>
+          <h3 data-i18n="about.f2Title">Grades & observations</h3>
+          <p data-i18n="about.f2Body">Enter trimester scores, write observations and track progress.</p>
+        </div>
+        <div class="feature" data-aos="zoom-in" data-aos-delay="300">
+          <i class="fa-solid fa-comments feature-icon"></i>
+          <h3 data-i18n="about.f3Title">Manage via project chats</h3>
+          <p data-i18n="about.f3Body">We coordinate setup and custom support directly through the teacher project chats.</p>
+        </div>
+        <div class="feature" data-aos="zoom-in" data-aos-delay="400">
+          <i class="fa-solid fa-globe feature-icon"></i>
+          <h3 data-i18n="about.f4Title">Localized & secure</h3>
+          <p data-i18n="about.f4Body">Full EN/FR/AR support and responsible privacy-first design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section features">
+    <div class="container">
+      <h2 data-i18n="features.title">Key Features</h2>
+      <div class="features-grid" data-aos="fade-up">
+        <article class="card">
+          <i class="fa-solid fa-users card-icon"></i>
+          <h4 data-i18n="features.c1Title">Manage classes & students</h4>
+          <p data-i18n="features.c1Body">Fast student search, batch imports and class templates.</p>
+        </article>
+        <article class="card">
+          <i class="fa-solid fa-square-poll-vertical card-icon"></i>
+          <h4 data-i18n="features.c2Title">Grades & reports</h4>
+          <p data-i18n="features.c2Body">Trimester averages, export to PDF/Excel, and colorized notes.</p>
+        </article>
+        <article class="card">
+          <i class="fa-solid fa-user-gear card-icon"></i>
+          <h4 data-i18n="features.c3Title">Teacher tools</h4>
+          <p data-i18n="features.c3Body">Observation templates, quick edits and role-based actions.</p>
+        </article>
+        <article class="card">
+          <i class="fa-solid fa-cloud-arrow-up card-icon"></i>
+          <h4 data-i18n="features.c4Title">Cloud & offline</h4>
+          <p data-i18n="features.c4Body">Local-first UX backed by Firestore for sync and backups.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <h2 data-i18n="gallery.title">In-app Gallery</h2>
+      <p class="section-lead" data-i18n="gallery.subtitle">Swipe through screens inside a phone frame. Use next/prev or autoplay.</p>
+      <div class="gallery-wrap" data-aos="zoom-in">
+        <div class="phone-frame big">
+          <div class="screen">
+            <img id="galleryImage" src="" alt="Gallery image">
+          </div>
+        </div>
+        <div class="gallery-controls">
+          <button id="prevBtn" class="icon-btn"><i class="fa-solid fa-chevron-left"></i></button>
+          <div id="dots" class="dots"></div>
+          <button id="nextBtn" class="icon-btn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section pricing">
+    <div class="container">
+      <h2 data-i18n="pricing.title">Plans & Pricing</h2>
+      <p class="section-lead" data-i18n="pricing.subtitle">Choose a plan that matches your school calendar.</p>
+      <div class="pricing-grid" data-aos="fade-up">
+        <div class="price-card">
+          <div class="price-head"><h3 data-i18n="pricing.trimesterTitle">Trimester</h3><div class="price-amount">700 <span>DZD</span></div></div>
+          <ul class="price-perks">
+            <li data-i18n="pricing.p1">All features included</li>
+            <li data-i18n="pricing.p2">Email & form support</li>
+            <li data-i18n="pricing.p3">Ideal for trials</li>
+          </ul>
+          <a class="btn primary" href="mailto:infoprofcem@gmail.com" data-i18n="pricing.cta">Contact</a>
+        </div>
+        <div class="price-card recommended">
+          <div class="price-head"><h3 data-i18n="pricing.yearTitle">Educational Year</h3><div class="price-amount">1500 <span>DZD</span></div></div>
+          <ul class="price-perks">
+            <li data-i18n="pricing.p4">All features included</li>
+            <li data-i18n="pricing.p5">Priority support</li>
+            <li data-i18n="pricing.p6">Best annual value</li>
+          </ul>
+          <a class="btn ghost" href="mailto:infoprofcem@gmail.com" data-i18n="pricing.cta">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container" data-aos="fade-up">
+      <h2 data-i18n="contact.title">Contact & Support</h2>
+      <p class="section-lead" data-i18n="contact.subtitle">Questions, activation, integrations or school-wide deployments — reach us.</p>
+      <div class="contact-cards">
+        <a class="contact-card" href="mailto:infoprofcem@gmail.com"><i class="fa-solid fa-envelope-open-text"></i><div><h4 data-i18n="contact.emailTitle">Email support</h4><p>infoprofcem@gmail.com</p></div></a>
+        <a class="contact-card" href="https://forms.gle/VMfN21YPeSyZbbik7" target="_blank"><i class="fa-brands fa-google"></i><div><h4 data-i18n="contact.formTitle">Request form</h4><p data-i18n="contact.formHint">Fill the Google Form to start</p></div></a>
+        <a class="contact-card" href="https://firebasestorage.googleapis.com/v0/b/teachertooldz.firebasestorage.app/o/teacher_tool_privacy_policy.html?alt=media&token=efb6fe02-8967-4390-8b5b-fa0a02272662" target="_blank"><i class="fa-solid fa-shield-halved"></i><div><h4 data-i18n="contact.privacyTitle">Privacy policy</h4><p data-i18n="contact.privacyHint">Read how we protect your data</p></div></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> DZ Teacher's Tool — All rights reserved</p>
+    <div class="footer-links"><a href="#" id="footerEmail">infoprofcem@gmail.com</a> · <a href="https://forms.gle/VMfN21YPeSyZbbik7" target="_blank">Contact form</a></div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
